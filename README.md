@@ -1,6 +1,6 @@
 # 0x1B. C - Sorting algorithms & Big O
 
-## Data Structure and Functions for this project
+## Data Structure for this project
 ```
 /**
  * struct listint_s - Doubly linked list node
@@ -19,7 +19,7 @@ typedef struct listint_s
 ## Sorting:
 	*  is used to rearrange a given array or list of elements according to a comparison operator on the elements.
 
-## Different Sorting Algorithms includdes:-
+## Different Sorting Algorithms includes:-
 	* Bubble Sort
 	* Selection Sort
 	* Insertion Sort
