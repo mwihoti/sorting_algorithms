@@ -18,7 +18,11 @@ typedef struct listint_s
 	struct listint_s *prev;
 	struct listint_s *next;
 } listint_t;
-
+/**
+ * enum get_bool - boolean values
+ * @false: Equals to 0
+ * @true: equivalent to 1
+ */
 typedef enum get_bool
 {
 	false = 0,
@@ -30,4 +34,4 @@ void print_list(const listint_t *list);
 /*Algorithims*/
 void bubble_sort(int *array, size_t size);
 
-#endif
+#endif /** SORT_H */
