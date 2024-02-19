@@ -35,7 +35,7 @@ void insertion_sort_list(listint_t **list)
 			print_list(*list);
 			starts = iter->prev;
 		}
-		iter = insert;
+		iter = new;
 		if (iter)
 			starts = iter->prev;
 	}
