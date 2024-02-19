@@ -19,8 +19,15 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+typedef enum get_bool
+{
+	false = 0,
+	true
+} bool;
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /*Algorithims*/
 void bubble_sort(int *array, size_t size);
+
+#endif
